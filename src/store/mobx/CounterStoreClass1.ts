@@ -1,6 +1,6 @@
 import { action, makeObservable, observable } from 'mobx';
 
-class CounterStoreClass1 {
+export class CounterStoreClass1 {
   // observable state
   number = 0;
 

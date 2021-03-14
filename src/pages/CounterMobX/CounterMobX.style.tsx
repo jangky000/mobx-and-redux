@@ -10,8 +10,8 @@ export const baseCss = css`
 
     .container {
       background-color: #dddddd;
-      width: 40vw;
-      height: 40vw;
+      width: 40vh;
+      height: 40vh;
       font-size: 2rem;
 
       .wrapper {

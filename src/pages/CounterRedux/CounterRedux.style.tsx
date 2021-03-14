@@ -2,12 +2,6 @@ import { css } from '@emotion/react';
 
 export const baseCss = css`
   & {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     .container {
       background-color: #dddddd;
       width: 40vw;
