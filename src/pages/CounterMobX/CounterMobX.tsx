@@ -13,6 +13,7 @@ export const CounterMobX = observer(
       <div className="CounterMobX" css={[baseCss]}>
         <div className="container">
           <div className="wrapper">
+            <div>MobX Counter</div>
             <div className="counter-value">{counterStore.number}</div>
             <div className="btn-wrapper">
               <button type="button" onClick={counterStore.increase}>

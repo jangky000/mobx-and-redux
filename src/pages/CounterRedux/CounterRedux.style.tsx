@@ -2,10 +2,16 @@ import { css } from '@emotion/react';
 
 export const baseCss = css`
   & {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     .container {
       background-color: #dddddd;
-      width: 40vw;
-      height: 40vw;
+      width: 40vh;
+      height: 40vh;
       font-size: 2rem;
 
       .wrapper {
